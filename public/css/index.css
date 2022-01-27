@@ -12,3 +12,63 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
+
+/* About Section */
+
+#about {
+  margin: 60px auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+#about img {
+  margin-bottom: 10px;
+  border-radius: 50%;
+  width: 120px;
+}
+
+#about .name {
+  font-size: 19px;
+}
+
+#about .vocation {
+  margin-bottom: 10px;
+  font-size: 17px;
+  color: #a8a8ab;
+}
+
+#about .skills {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #00abae;
+}
+
+#about .email {
+  margin-top: 14px;
+  font-size: 14px;
+}
+
+#about .icons {
+  margin-top: 5px;
+  font-size: 30px;
+}
+
+#about .icons .bi {
+  color: rgb(87, 87, 87);
+  transition: 0.3s color;
+}
+
+#about .bi-instagram:hover {
+  color: #c13584;
+  transition: 0.3s color;
+}
+
+#about .bi-linkedin:hover {
+  color: #2867b2;
+  transition: 0.3s color;
+}
+
+#about .bi-github:hover {
+  color: #171515;
+  transition: 0.3s color;
+}
